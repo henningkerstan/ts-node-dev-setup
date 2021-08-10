@@ -14,11 +14,11 @@ Here are the steps how I setup my development environment for TypeScript.
 git clone --depth=1 --branch=main https://github.com/henningkerstan/ts-node-dev-setup
 ```
 
-- copy all files from the repo except for the `.git` folder into your `my-repo` folder
+- copy all files from the repo except for the `.git` folder into your `my-repo` folder; afterwards you may remove the `ts-node-dev-setup` folder 
 
-- Create a package.json by running `npm init` in your new repo
+- Now update the included (and incomplete!) `package.json` by running `npm init` in your new repo
 
-- update the created `package.json` as follows:
+- Update the `.vscode/settings.json` and set `licenser.author` and `enocean-core` (if you plan to use the licenser extension for automatically adding a license notice in new files)
 
 
 
