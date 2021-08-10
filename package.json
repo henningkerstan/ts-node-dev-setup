@@ -1,6 +1,5 @@
 {
-  "private": true,
-  "name": "foo",
+  "name": "ts-node-dev-setup",
   "version": "0.0.0",
   "description": "My setup to develop in TypeScript for Node.js",
   "main": "lib/index.js",
@@ -16,11 +15,5 @@
     "version": "node .version.js",
     "prepare": "husky install",
     "license-checker": "npx license-checker --summary --production --unknown --onlyAllow \"Apache-2.0;MIT;BSD;ISC\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com//henningkerstan/ts-node-dev-setup"
-  },
-  "author": "Henning Kerstan <mail@henningkerstan.de>",
-  "license": "Apache-2.0"
+  }
 }
