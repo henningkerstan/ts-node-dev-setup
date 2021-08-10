@@ -20,6 +20,10 @@ git clone --depth=1 --branch=main https://github.com/henningkerstan/ts-node-dev-
 
 - Update the `.vscode/settings.json` and set `licenser.author` and `enocean-core` (if you plan to use the licenser extension for automatically adding a license notice in new files)
 
+- Install the necessary dev dependencies:
+```bash
+npm i --save-dev typescript @types/node typedoc jasmine @types/jasmine jasmine-ts jasmine-spec-reporter license-checker np husky prettier ts-node eslint eslint-config-prettier eslint-config-standard eslint-plugin-import eslint-plugin-prettier eslint-plugin-promise @typescript-eslint/eslint-plugin @typescript-eslint/parser
+```
 
 
 ## Explanations
