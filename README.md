@@ -9,7 +9,6 @@ tbd
 Here are the steps how I setup my development environment for TypeScript.
 1. Create a new git repository (for the purpose of this tutorial, we assume the name is `my-repo`)
 1. Clone this repo somewhere else, omitting the history
-
 ```bash
 git clone --depth=1 --branch=main https://github.com/henningkerstan/ts-node-dev-setup
 ```
