@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "name": "foo",
+  "version": "0.0.0",
+  "description": "My setup to develop in TypeScript for Node.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "npx jasmine-ts --config=jasmine.json",
+    "doc": "npx typedoc",
+    "build": "npx tsc",
+    "all": "npm run build && npm run build && npm run doc",
+    "lint": "eslint --ignore-path .gitignore --fix src/**/*.ts spec/**/*.ts",
+    "prepublishOnly": "npm run license-checker && npm run build",
+    "version": "node .version.js",
+    "prepare": "husky install",
+    "license-checker": "npx license-checker --summary --production --unknown --onlyAllow \"Apache-2.0;MIT;BSD;ISC\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//henningkerstan/ts-node-dev-setup"
+  },
+  "author": "Henning Kerstan <mail@henningkerstan.de>",
+  "license": "Apache-2.0"
+}
