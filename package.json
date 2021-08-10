@@ -1,7 +1,4 @@
 {
-  "name": "ts-node-dev-setup",
-  "version": "0.0.0",
-  "description": "My setup to develop in TypeScript for Node.js",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
